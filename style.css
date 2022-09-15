@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+   
+}
+
+li a {
+    text-align: center;
+    height: 40px;
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
+
+.homepage {
+    margin-right: 5%;
+    margin-left: 15%;
+    padding: 1px 16px;
+    height: 1000px;
+
+}
+
+.logo {
+    margin-left: 550px;
+}
+
+.inf {
+    text-align: center;
+    border: solid 1px black;
+    background-color: gray;
+}
+
+.inf_detail {
+    display: flex;
+
+}
+
+.inf_detail_item {
+    margin-left: 50px;
+}
+.footer{
+    width: 100%;
+    border-top: 1px solid black;
+    display: inline-block;
+    margin-top: 28%;
+    vertical-align: bottom;
+    
+}
